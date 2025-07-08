@@ -63,7 +63,7 @@
         <!-- ensemble -->
 
         <terminal name="randomForest" type="tree" code="sklearn.ensemble.RandomForestClassifier"/>
-            <terminal name="rf::n_estimators" type="int" lower="10" upper="100" default="100"/>
+            <terminal name="rf::n_estimators" type="int" lower="100" upper="100" default="100"/>
             <terminal name="rf::criterion" type="categorical" values="gini;entropy" default="gini"/>
             <terminal name="rf::max_features" type="union">
                 <union type="categorical" values="sqrt;log2" default="None"/>
