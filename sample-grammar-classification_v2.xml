@@ -161,7 +161,7 @@
             <!-- ensembles -->
             <production-rule>randomForest(randomForest_hp)</production-rule>
             <production-rule>extraTreesClassifier(extraTreesClassifier_hp)</production-rule>
-            <!--<production-rule>adaBoost(adaBoost_hp)</production-rule>-->
+            <production-rule>adaBoost(adaBoost_hp)</production-rule>
             <!-- discriminant -->
             <production-rule>qda(qda_hp)</production-rule>
             <production-rule>lda(lda_hp)</production-rule>
