@@ -6,6 +6,7 @@ from collections import defaultdict, Counter
 import logging
 import requests
 from datetime import datetime
+import sys
 
 def download_file(url, save_path):
     try:
